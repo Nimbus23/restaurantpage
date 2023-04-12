@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="cs.css" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Restaurante pagina</title>
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3081/3081949.png">
+
+</head>
+  <body>
+    
+  <ul>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">
+        <div style="width: 35px; 
+        height: 5px;
+        background-color: rgb(243, 243, 243);
+        margin: 7px 0;"></div>
+            <div style="width: 35px;
+            height: 5px;
+            background-color: rgb(243, 243, 243);
+            margin: 6px 0;"></div>
+            <div style="width: 35px;
+            height: 5px;
+            background-color: rgb(243, 243, 243);
+            margin: 6px 0;"></div>
+            </a>
+        <div class="dropdown-content">
+            <a href="#">Home</a>
+            <a href="menu.html">Menu Page</a>
+            <a href="abous.html">Contact Me</a>
+        </div>
+    <li><a href="#news">Calidad</a></li>
+    <li><a href="#contact">Consistencia</a></li>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Ambiente</a>
+        <div class="dropdown-content">
+          <a href="#">Decoración Increíble</a>
+          <a href="#">Ambiente Agradable</a>
+          <a href="#">Iluminación Maravillosa</a>
+        </div>
+    <li><a href="#about">Reseñas</a></li>
+  </ul>
+
+
+<h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; display: flex; justify-content: center;">La casa de comida</h1>
+
+  <p>Bienvenido a la página principal de nuestro sitio web de restaurante, donde puede encontrar todo lo que necesita saber sobre nuestra deliciosa comida y nuestra experiencia excepcional de comer. <br><br>
+
+    En la parte superior de la página, encontrará nuestro logotipo y una barra de navegación que incluye enlaces a nuestras páginas de menú, reservas, ubicaciones, acerca de nosotros y contáctenos. </p>
+    <br>
+
+    <div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://wallpapershome.com/images/pages/ico_h/17816.jpg" alt="food" style="width:100%" >
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://c4.wallpaperflare.com/wallpaper/237/676/881/meat-4k-windows-hd-download-wallpaper-preview.jpg" alt="food" style="width:100%" height="560">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://wallpapersmug.com/download/3840x2160/b67e3e/pizza-slices-food.jpg" alt="food"  style="width:100%" height="560">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+Esperamos que disfrute navegando por nuestro sitio web y que le abra el apetito para disfrutar de una deliciosa comida en nuestro restaurante. Gracias por elegirnos, ¡y esperamos servirle pronto!
+<br><br>
+<div style="display: flex; justify-content: center;">
+<a href="https://vistula.edu.pl/" class="fa fa-facebook"></a>
+<a href="https://www.youtube.com/watch?v=L-ppgVgz-Pk" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/nikitachabanets/" class="fa fa-instagram"></a>
+<!--
+<button style="font-size:24px"> <a href="https://web.telegram.org/z/#5038192347">The Love of My Whole Life <br>(Don't click,she is only mine)</a><i class="fa fa-heart"></i></button>
+-->
+</div>
+</body>
+</html> 

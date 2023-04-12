@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante pagina</title>
+    <link rel="stylesheet" href="cs.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3081/3081949.png">
+    <style>
+        figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">
+            <div style="width: 35px; 
+            height: 5px;
+            background-color: rgb(243, 243, 243);
+            margin: 7px 0;"></div>
+                <div style="width: 35px;
+                height: 5px;
+                background-color: rgb(243, 243, 243);
+                margin: 6px 0;"></div>
+                <div style="width: 35px;
+                height: 5px;
+                background-color: rgb(243, 243, 243);
+                margin: 6px 0;"></div>
+                </a>
+            <div class="dropdown-content">
+                <a href="sdf.html">Home</a>
+                <a href="menu.html">Menu Page</a>
+                <a href="abous.html">Contact Me</a>
+            </div>
+            <li><a href="#start">Starters</a></li>
+    <li><a href="#maind">Main Courses</a></li>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Desserts</a>
+        <div class="dropdown-content">
+          <a href="#dessert">Macarons</a>
+          <a href="#dessert">Cup-Cakes</a>
+          <a href="#dessert">Muse-Cakes</a>
+        </div>
+    <li><a href="#drink">Drinks</a></li>
+  </ul>
+
+  <h1 style="display: flex; justify-content: center;">El menu</h1>
+<article id="start">
+<h2 style="display:flex; justify-content: center;">Starters</h2>
+
+  <div style="display: flex; justify-content: space-evenly;">
+    <figure>
+        <img src="https://i.guim.co.uk/img/media/47b2f77264e2459472e39a1e005cbed09d8c3758/46_350_2612_3096/master/2612.jpg?width=1300&quality=45&dpr=2&s=none" width="300" height="300" alt="cake">
+        <figcaption>Prawn blinis <br>and stuffed artichokes <br>9.99zł/100gr</figcaption>
+      </figure>
+      <figure>
+        <img src="https://i.guim.co.uk/img/media/452306222f8df69b6120d60414df3e449577b7f9/128_145_2765_3235/master/2765.jpg?width=1300&quality=45&dpr=2&s=none" alt="cake2" width="300" height="300">
+        <figcaption>
+            Chicory boats and <br>posh pigs in blankets <br>15zł/150gr</figcaption>
+      </figure>
+      <figure>
+        <img src= "https://www.shape.com/thmb/cvgSSwjfHs7ptjJD2ZFhFoSaDVY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Healthy-Sandwiches-shutterstock_1107864623-2000-f8592954b2c34b06a0c011d44c378817.jpg" width="300" height="300" alt="cake3(lie)">
+        <figcaption>Wraps de verduras <br>12zł/wrap</figcaption>
+      </figure>
+  
+    </div>
+  </article>
+<br><br>
+<article id="maind">
+<h2 style="display:flex; justify-content: center;">Hot Dishes</h2>
+
+<div style="display: flex; justify-content: space-evenly;">
+    <figure>
+        <img src="https://gypsyplate.com/wp-content/uploads/2020/08/chicken-teriyaki-bowl_square300.jpg" alt="ck">
+        <figcaption>Teriyaki chiken bowl <br>19.99zł/300gr</figcaption>
+      </figure>
+<!--
+      <figure>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlEmd5-u5b4812vKyZnf5G_xYUBgc6gvpruA&usqp=CAU" width="300" height="300" alt="ck">
+        <figcaption>La milfa</figcaption>
+        <figcaption>100zł/night</figcaption>
+      </figure>
+      <figure>
+        <img src="https://preview.redd.it/k3e2wte905f71.jpg?auto=webp&s=8146d888b8d3f32a6f87705a6480034e5b32250f" width="300" height="300" alt="ck">
+        <figcaption>Las milfas</figcaption>
+        <figcaption>200zł/night</figcaption>
+      </figure>
+  -->
+        <figure>
+            <img src="https://fwiw.imgix.net/wp-content/uploads/sites/3/2023/03/wi-big-food-1.jpg?w=1400&fm=webp" width="300" height="300" alt="ck">
+            <figcaption>Burger and Fries <br>14.99zł/set</figcaption>
+        </figure>
+        <figure>
+            <img src="https://www.31daily.com/wp-content/uploads/2017/06/md_quick-fix-main-dish-salads.jpg" width="300" height="300" alt="ck">
+            <figcaption>Caesar Salad <br>12zł/250gr</figcaption>
+          </figure>
+        
+        </div>
+</article>
+  <br><br>
+  <article id="dessert">
+  <h2 style="display:flex; justify-content: center;">Desserts</h2>
+<div style="display: flex; justify-content: space-evenly;">
+  <figure>
+      <img src="https://tort-krk.pl/wp-content/uploads/2021/02/5F4F91C9-4BFD-49C1-BD4F-E1B95B1D4F2D-scaled-300x300.jpeg" width="300" height="300" alt="cake">
+      <figcaption>Macarons <br>20zł/100gr</figcaption>
+    </figure>
+    <figure>
+      <img src="https://tort-krk.pl/wp-content/uploads/2020/04/IMG_1074-scaled-e1644004021585-300x300.jpg" width="300" height="300" alt="ck">
+      <figcaption>Cup-Cakes <br>40zł/package</figcaption>
+    </figure>
+    <figure>
+      <img src="https://tort-krk.pl/wp-content/uploads/2022/04/IMG_1427-scaled-e1649696815153-300x300.jpg" width="300" height="300" alt="cake3">
+      <figcaption>Muse-Cakes <br>200zł/3kg</figcaption>
+    </figure>
+</div>
+
+<br><br>
+</article>
+<article id="drink">
+<h2 style="display:flex; justify-content: center;">Drinks</h2>
+
+<div style="display: flex; justify-content: space-evenly;">
+    <figure>
+        <img src="https://bakewithshivesh.com/wp-content/uploads/2022/04/IMG_9331-scaled.jpg" width="300" height="300" alt="cake">
+        <figcaption>Cocktails <br>11zł/150ml</figcaption>
+      </figure>
+      <figure>
+        <img src="https://c.ndtvimg.com/2020-01/q13n6h28_hot-drink_625x300_21_January_20.jpg" width="300" height="300" alt="cake2">
+        <figcaption>Coffee and Tea <br>9.99zł/200ml</figcaption>
+      </figure>
+      <figure>
+        <img src="https://c.ndtvimg.com/2022-03/h16kcemo_detox-drinks-for-weight-loss_625x300_21_March_22.jpg" width="300" height="300" alt="cake3">
+        <figcaption>Fruit Infusions <br>9.99zł/200ml</figcaption>
+      </figure>
+    </div>
+  </article>
+
+</body>
+</html>
